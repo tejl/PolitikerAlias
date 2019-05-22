@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "Rasmus Pandekage",
+    "name": "Politiker Alias",
     "version": "0.1",
     "icons": {
         "64": "icons/pandekage_icon_64.png",
@@ -15,7 +15,7 @@
             "matches": [
         "<all_urls>"
       ],
-            "js": ["palukage.js"]
+            "js": ["app.js"]
     }
   ]
 }

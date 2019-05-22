@@ -16,6 +16,14 @@ function replaceText (node) {
     if (value.includes("Laura Lindahl") && value.includes("")) {
         value = value.replace(/Laura Lindahl/gi, 'Laura Langpat')
     }
+    
+    if (value.includes("Joakim B. Olsen")) {
+        value = value.replace(/Joakim B. Olsen/gi, 'Gokke Jokke')
+    }
+
+    if (value.includes("Joakim B. Olsen")) {
+        value = value.replace(/Joakim Brøchner Olsen/gi, 'Gokke Jokke')
+    }
 
     node.nodeValue = value;
 }
